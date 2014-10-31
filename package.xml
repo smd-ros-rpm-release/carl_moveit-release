@@ -1,0 +1,42 @@
+<package>
+  <name>carl_moveit</name>
+  <version>0.0.1</version>
+  <description>MoveIt! Configuration and ROS Interface for CARL</description>
+
+  <maintainer email="davidkent@wpi.edu">David Kent</maintainer>
+  <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+  <author email="davidkent@wpi.edu">David Kent</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/carl_moveit</url>
+  <url type="bugtracker">https://github.com/WPI-RAIL/carl_moveit/issues</url>
+  <url type="repository">https://github.com/WPI-RAIL/carl_moveit</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>carl_description</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>carl_description</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>xacro</run_depend>
+</package>
