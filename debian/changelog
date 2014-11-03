@@ -1,0 +1,19 @@
+ros-indigo-carl-moveit (0.0.2-0trusty) trusty; urgency=high
+
+  * missing dep added back
+  * Contributors: Russell Toris
+
+ -- David Kent <davidkent@wpi.edu>  Mon, 03 Nov 2014 05:00:00 -0000
+
+ros-indigo-carl-moveit (0.0.1-0trusty) trusty; urgency=high
+
+  * mongo fix
+  * travis test
+  * cleanup for release
+  * updates for pick and place
+  * initial commit
+  * Contributors: Russell Toris, dekent
+
+ -- David Kent <davidkent@wpi.edu>  Fri, 31 Oct 2014 04:00:00 -0000
+
+
